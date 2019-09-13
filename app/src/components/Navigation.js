@@ -5,6 +5,7 @@ import Logo from '../assets/tree_logo.svg';
 const Nav = styled.section`
 width: 100%;
 height: 60px;
+background: #292F33;
 `;
 
 const NavBar = styled.div`
@@ -18,7 +19,7 @@ padding-top: 10px;
 `;
 
 const NavLogo = styled.img`
-width: 60px;
+width: 40px;
 `;
 
 const NavLinks = styled.div`
@@ -28,7 +29,7 @@ justify-content: space-around;
 align-items: center;
 
 @media only screen and (max-width: 600px) {
-    width: 50%;
+    width: 60%;
 }
 `;
 
